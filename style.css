@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add{
+    display: flex;
+}
+
+
+.player-input{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    display: flex;
+    font-size: 17px;
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+
+    padding: 10px;
+    transition: background-color 200ms ease-in-out;
+    background-color: #AEB1B4;
+    color: #1a150e;
+    
+}
+
+.player-btn{
+    border: none;
+    outline: none;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 17px;
+    min-width: 100px;
+    background: rgb(114, 114, 114);
+}
