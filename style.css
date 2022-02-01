@@ -16,10 +16,7 @@
     font-size: 17px;
     margin: 15px 0;
     padding: 10px;
-    width: 100%;
-
-    padding: 10px;
-    transition: background-color 200ms ease-in-out;
+    min-width: 100px;
     background-color: #AEB1B4;
     color: #1a150e;
     
@@ -35,8 +32,32 @@
     background: rgb(114, 114, 114);
 }
 
+.players div{
+    height: 30px;
+    margin: 20px auto;
+}
+
 .name{
-    width: 30px;
+    width: 60px;
     margin: auto 10px;
     display: inline-block;
+    font-size: 24px;
+}
+
+.money{
+    width: 60px;
+    margin: auto 10px;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+}
+
+.players div button{
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 30px;
+    background: rgb(114, 114, 114);
+    font-size: 20px;
+    width: 50px;
 }
