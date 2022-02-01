@@ -34,3 +34,9 @@
     min-width: 100px;
     background: rgb(114, 114, 114);
 }
+
+.name{
+    width: 30px;
+    margin: auto 10px;
+    display: inline-block;
+}
