@@ -33,13 +33,13 @@
 }
 
 .players div{
-    height: 30px;
+    height: 35px;
     margin: 20px auto;
 }
 
 .name{
-    width: 60px;
-    margin: auto 10px;
+    width: 70px;
+    margin: auto 20px;
     display: inline-block;
     font-size: 24px;
 }
@@ -56,8 +56,11 @@
     border: none;
     outline: none;
     height: 100%;
-    width: 30px;
     background: rgb(114, 114, 114);
     font-size: 20px;
-    width: 50px;
+    width: 70px;
+}
+
+.players .cais {
+    background: #AEB1B4;
 }
