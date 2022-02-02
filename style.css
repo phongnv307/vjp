@@ -8,6 +8,12 @@
     display: flex;
 }
 
+.add span{
+    font-size: 25px;
+    font-weight: 600;
+    margin: auto;
+}
+
 
 .player-input{
     border-collapse: collapse;
@@ -16,7 +22,7 @@
     font-size: 17px;
     margin: 15px 0;
     padding: 10px;
-    min-width: 100px;
+    max-width: 40%;
     background-color: #AEB1B4;
     color: #1a150e;
     
