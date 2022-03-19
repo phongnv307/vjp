@@ -10,48 +10,25 @@
 </head>
 <body>
     <div class="add">
-        <input class="player-input" type="number" placeholder="Number">
-        <button class="player-btn" type="submit">Set</button>
+        <input class="num-input" type="number" placeholder="Number">
+        <button class="num-btn" type="submit">Set</button>
         <span>50</span>
     </div>
-    <div class="players">
-        <div id="Bao">
-            <span class="name" onclick="addCais(this)">Bao</span>
-            <button>-</button>
-            <span class="money"></span>
-            <button>+</button>
-        </div>
-        <div id="Hoang">
-            <span class="name" onclick="addCais(this)">Hoang</span>
-            <button>-</button>
-            <span class="money"></span>
-            <button>+</button>
-        </div>
-        <div id="Phong">
-            <span class="name" onclick="addCais(this)">Phong</span>
-            <button>-</button>
-            <span class="money"></span>
-            <button>+</button>
-        </div>
-        <div id="Quang">
-            <span class="name" onclick="addCais(this)">Quang</span>
-            <button>-</button>
-            <span class="money"></span>
-            <button>+</button>
-        </div>
-        <div id="Thinh">
-            <span class="name" onclick="addCais(this)">Thinh</span>
-            <button>-</button>
-            <span class="money"></span>
-            <button>+</button>
-        </div>
-        <div id="Vu">
-            <span class="name" onclick="addCais(this)">Vu</span>
-            <button>-</button>
-            <span class="money"></span>
-            <button>+</button>
-        </div>
+    <div class="addPlayer">
+        <input class="player-input" type="text" placeholder="Name">
+        <button class="player-btn" type="submit">Add</button>
     </div>
+
+    <div class="players">
+        
+    </div>
+
+    <button id="clear" onclick="clearItems()">Clear</button>
+    <script>
+            function clearItems() {
+                localStorage.clear();
+            }
+    </script>
 </body>
 <script src="script.js" type="text/javascript"></script>
 </html>

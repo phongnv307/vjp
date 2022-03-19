@@ -14,6 +14,39 @@
     margin: auto;
 }
 
+.addPlayer{
+    display: flex;
+}
+
+.addPlayer span{
+    font-size: 25px;
+    font-weight: 600;
+    margin: auto;
+}
+
+
+.num-input{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    display: flex;
+    font-size: 17px;
+    margin: 15px 0;
+    padding: 10px;
+    max-width: 40%;
+    background-color: #AEB1B4;
+    color: #1a150e;
+    
+}
+
+.num-btn{
+    border: none;
+    outline: none;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 17px;
+    min-width: 100px;
+    background: rgb(114, 114, 114);
+}
 
 .player-input{
     border-collapse: collapse;
@@ -22,7 +55,7 @@
     font-size: 17px;
     margin: 15px 0;
     padding: 10px;
-    max-width: 40%;
+    max-width: 70%;
     background-color: #AEB1B4;
     color: #1a150e;
     
@@ -69,4 +102,15 @@
 
 .players .cais {
     background: #AEB1B4;
+}
+
+#clear{
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 5px;
+    padding: 10px;
+    font-size: 17px;
+    min-width: 100px;
+    background: rgb(114, 114, 114);
 }
