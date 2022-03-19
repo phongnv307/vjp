@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     let playerName;
         if(localStorage.getItem('playerName') === null) {
-            playerName = [];
+            console.log("hey");
         }
         else {
             playerName = JSON.parse(localStorage.getItem('playerName'));
